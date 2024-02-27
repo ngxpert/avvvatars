@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@ngneat/avvvatars": [
-        "./dist/ngneat/avvvatars"
+      "@ngxpert/avvvatars": [
+        "./dist/ngxpert/avvvatars"
       ]
     },
     "outDir": "./dist/out-tsc",

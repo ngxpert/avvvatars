@@ -5,7 +5,7 @@ import {
   ElementRef,
   ViewChild,
 } from '@angular/core';
-import { AvvvatarsComponent, Style } from '@ngneat/avvvatars';
+import { AvvvatarsComponent, Style } from '@ngxpert/avvvatars';
 import '@material/web/textfield/outlined-text-field';
 import '@material/web/radio/radio.js';
 import { MdOutlinedTextField } from '@material/web/textfield/outlined-text-field';
@@ -20,7 +20,7 @@ import { MdOutlinedTextField } from '@material/web/textfield/outlined-text-field
 })
 export class AvatarDemoComponent implements AfterViewInit {
   avStyle: Style = 'shape';
-  displayValue = '@ngneat/avvvatars';
+  displayValue = '@ngxpert/avvvatars';
   value = '';
   int: ReturnType<typeof setInterval> | undefined;
   @ViewChild('input') input!: ElementRef<MdOutlinedTextField>;

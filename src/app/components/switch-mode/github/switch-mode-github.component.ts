@@ -11,6 +11,6 @@ export class SwitchModeGitHubComponent {
   move = false;
 
   goTo() {
-    window.open('https://github.com/ngneat/avvvatars', '_blank');
+    window.open('https://github.com/ngxpert/avvvatars', '_blank');
   }
 }

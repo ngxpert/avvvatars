@@ -3,7 +3,7 @@ import '@material/web/iconbutton/icon-button.js';
 import '@material/web/icon/icon.js';
 import { SwitchModeDarkComponent } from '../switch-mode/dark/switch-mode-dark.component';
 import { SwitchModeGitHubComponent } from '../switch-mode/github/switch-mode-github.component';
-import { AvvvatarsComponent } from '@ngneat/avvvatars';
+import { AvvvatarsComponent } from '@ngxpert/avvvatars';
 import { SwitchModeLiveComponent } from '../switch-mode/live/switch-mode-live.component';
 import { NgClass } from '@angular/common';
 

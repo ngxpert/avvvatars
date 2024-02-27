@@ -16,23 +16,23 @@ export class WrapperComponent implements WrapperProps {
   @Input() borderColor: string | undefined;
   @Input() radius: number | undefined;
 
-  @HostBinding('style.--ngneat-avvvatars-width') get width() {
+  @HostBinding('style.--ngxpert-avvvatars-width') get width() {
     return this.size + 'px';
   }
-  @HostBinding('style.--ngneat-avvvatars-height') get height() {
+  @HostBinding('style.--ngxpert-avvvatars-height') get height() {
     return this.size + 'px';
   }
-  @HostBinding('style.--ngneat-avvvatars-border-radius') get borderRadius() {
+  @HostBinding('style.--ngxpert-avvvatars-border-radius') get borderRadius() {
     return (this.radius || this.size) + 'px';
   }
-  @HostBinding('style.--ngneat-avvvatars-background-color')
+  @HostBinding('style.--ngxpert-avvvatars-background-color')
   get backgroundColor() {
     return this.color;
   }
-  @HostBinding('style.--ngneat-avvvatars-border') get borderStyle() {
+  @HostBinding('style.--ngxpert-avvvatars-border') get borderStyle() {
     return `${this.borderSize}px solid ${this.borderColor}`;
   }
-  @HostBinding('style.--ngneat-avvvatars-box-shadow') get boxShadow() {
+  @HostBinding('style.--ngxpert-avvvatars-box-shadow') get boxShadow() {
     return this.shadow
       ? '0px 3px 8px rgba(18, 18, 18, 0.04), 0px 1px 1px rgba(18, 18, 18, 0.02)'
       : 'none';

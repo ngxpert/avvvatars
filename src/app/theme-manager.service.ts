@@ -4,7 +4,7 @@ import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { take } from 'rxjs/operators';
 import { BrowserStorageService } from './browser-storage.service';
 
-const LOCAL_STORAGE_KEY = '@ngneat/avvvatars';
+const LOCAL_STORAGE_KEY = '@ngxpert/avvvatars';
 
 @Injectable({ providedIn: 'root' })
 export class ThemeManager {

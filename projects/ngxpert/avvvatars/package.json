@@ -1,8 +1,8 @@
 {
-  "name": "@ngneat/avvvatars",
+  "name": "@ngxpert/avvvatars",
   "version": "0.0.0-development",
   "scripts": {
-    "postpublish": "cpx package.json ../../../../../projects/ngneat/avvvatars/ && cpx npm-shrinkwrap.json ../../../../../projects/ngneat/avvvatars/"
+    "postpublish": "cpx package.json ../../../../../projects/ngxpert/avvvatars/ && cpx npm-shrinkwrap.json ../../../../../projects/ngxpert/avvvatars/"
   },
   "peerDependencies": {
     "@angular/common": "^17.0.0",
@@ -19,19 +19,19 @@
     "avatars",
     "avatar",
     "ng avatar",
-    "ngneat",
-    "@ngneat/avvvatars"
+    "ngxpert",
+    "@ngxpert/avvvatars"
   ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/ngneat/avvvatars/issue"
+    "url": "https://github.com/ngxpert/avvvatars/issue"
   },
-  "homepage": "https://github.com/ngneat/avvvatars#readme",
+  "homepage": "https://github.com/ngxpert/avvvatars#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/avvvatars"
+    "url": "https://github.com/ngxpert/avvvatars"
   }
 }

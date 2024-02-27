@@ -8,7 +8,7 @@ import { CodeComponent } from '../code/code.component';
   imports: [CodeComponent],
 })
 export class SetupComponent {
-  snippet = `import { AvvvatarsComponent } from '@ngneat/avvvatars';
+  snippet = `import { AvvvatarsComponent } from '@ngxpert/avvvatars';
 
 @Component({
   selector: 'app-root',

@@ -9,11 +9,11 @@ import { Component, HostBinding, Input } from '@angular/core';
 export class TextComponent {
   @Input({ required: true }) size!: number;
 
-  @HostBinding('style.--ngneat-avvvatars-font-size') get fontSize() {
+  @HostBinding('style.--ngxpert-avvvatars-font-size') get fontSize() {
     return `${Math.round((this.size / 100) * 37)}px`;
   }
 
-  @HostBinding('style.--ngneat-avvvatars-color')
+  @HostBinding('style.--ngxpert-avvvatars-color')
   @Input({ required: true })
   color!: string;
 }

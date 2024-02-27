@@ -1,0 +1,21 @@
+:host {
+  display: var(--ngxpert-avvvatars-wrapper-display, inline-block);
+}
+.wrapper {
+  width: var(--ngxpert-avvvatars-width);
+  height: var(--ngxpert-avvvatars-height);
+  border-radius: var(--ngxpert-avvvatars-border-radius);
+  background-color: var(--ngxpert-avvvatars-background-color);
+  border: var(--ngxpert-avvvatars-border);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  &:hover {
+    z-index: 3;
+  }
+
+  box-shadow: var(--ngxpert-avvvatars-box-shadow);
+}

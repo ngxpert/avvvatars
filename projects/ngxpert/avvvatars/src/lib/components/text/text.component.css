@@ -17,8 +17,8 @@
     "Helvetica Neue",
     sans-serif;
 
-  font-size: var(--ngneat-avvvatars-font-size);
-  color: var(--ngneat-avvvatars-color);
+  font-size: var(--ngxpert-avvvatars-font-size);
+  color: var(--ngxpert-avvvatars-color);
   line-height: 0;
   text-transform: uppercase;
   font-weight: 500;

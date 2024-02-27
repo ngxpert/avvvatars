@@ -9,7 +9,7 @@ import { CodeComponent } from '../code/code.component';
 })
 export class InstallationComponent {
   snippet = `
-npm i @ngneat/avvvatars`;
+npm i @ngxpert/avvvatars`;
   snippet2 = `
-yarn add @ngneat/avvvatars`;
+yarn add @ngxpert/avvvatars`;
 }

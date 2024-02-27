@@ -1,15 +1,15 @@
 {
-  "name": "@ngneat/avvvatars",
+  "name": "@ngxpert/avvvatars",
   "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
-    "build:lib:dev": "ng build @ngneat/avvvatars --watch --configuration development",
+    "build:lib:dev": "ng build @ngxpert/avvvatars --watch --configuration development",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "copy:readme": "cpx README.md dist/ngneat/avvvatars",
-    "build:lib": "ng build @ngneat/avvvatars --configuration production && npm run copy:readme",
+    "copy:readme": "cpx README.md dist/ngxpert/avvvatars",
+    "build:lib": "ng build @ngxpert/avvvatars --configuration production && npm run copy:readme",
     "semantic-release": "semantic-release",
     "commit": "cz",
     "hooks:pre-commit": "node hooks/pre-commit.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/avvvatars.git"
+    "url": "https://github.com/ngxpert/avvvatars.git"
   },
   "publishConfig": {
     "access": "restricted"

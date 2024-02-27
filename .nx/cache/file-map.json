@@ -53,8 +53,8 @@
     "typescript": "~5.2.2"
   },
   "pathMappings": {
-    "@ngneat/avvvatars": [
-      "./dist/ngneat/avvvatars"
+    "@ngxpert/avvvatars": [
+      "./dist/ngxpert/avvvatars"
     ]
   },
   "nxJsonPlugins": [],
@@ -186,107 +186,107 @@
         "hash": "441514960985341965"
       },
       {
-        "file": "projects/ngneat/avvvatars/.eslintrc.json",
+        "file": "projects/ngxpert/avvvatars/.eslintrc.json",
         "hash": "15092599220737075764"
       },
       {
-        "file": "projects/ngneat/avvvatars/README.md",
+        "file": "projects/ngxpert/avvvatars/README.md",
         "hash": "4968216934457671414"
       },
       {
-        "file": "projects/ngneat/avvvatars/ng-package.json",
+        "file": "projects/ngxpert/avvvatars/ng-package.json",
         "hash": "3750097135087343661"
       },
       {
-        "file": "projects/ngneat/avvvatars/package.json",
+        "file": "projects/ngxpert/avvvatars/package.json",
         "hash": "8638105290867730193"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/avvvatars.component.html",
+        "file": "projects/ngxpert/avvvatars/src/lib/avvvatars.component.html",
         "hash": "4602684873607612336"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/avvvatars.component.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/avvvatars.component.ts",
         "hash": "14130105052988163524"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/shape/all-shapes.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/shape/all-shapes.ts",
         "hash": "16049091845482878760"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/shape/shape.component.css",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/shape/shape.component.css",
         "hash": "18445070624130267938"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/shape/shape.component.html",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/shape/shape.component.html",
         "hash": "3244421341483603138"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/shape/shape.component.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/shape/shape.component.ts",
         "hash": "2366539331828050905"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/text/text.component.css",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/text/text.component.css",
         "hash": "7604132016713915747"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/text/text.component.html",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/text/text.component.html",
         "hash": "6094506939625674296"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/text/text.component.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/text/text.component.ts",
         "hash": "14601354927245045381"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/wrapper/wrapper.component.html",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/wrapper/wrapper.component.html",
         "hash": "2506815316011650611"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/wrapper/wrapper.component.scss",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/wrapper/wrapper.component.scss",
         "hash": "12740421723973797250"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/components/wrapper/wrapper.component.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/components/wrapper/wrapper.component.ts",
         "hash": "15680895689496554343"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/constants.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/constants.ts",
         "hash": "10865884484223092875"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/types.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/types.ts",
         "hash": "1307568889471778146"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/utils/alea.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/utils/alea.ts",
         "hash": "14970448794441706610"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/utils/colors.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/utils/colors.ts",
         "hash": "13897417082294470212"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/utils/mersenne_twister.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/utils/mersenne_twister.ts",
         "hash": "1584147669383796827"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/lib/utils/random.ts",
+        "file": "projects/ngxpert/avvvatars/src/lib/utils/random.ts",
         "hash": "499476674651235648"
       },
       {
-        "file": "projects/ngneat/avvvatars/src/public-api.ts",
+        "file": "projects/ngxpert/avvvatars/src/public-api.ts",
         "hash": "9420811669110878876"
       },
       {
-        "file": "projects/ngneat/avvvatars/tsconfig.lib.json",
+        "file": "projects/ngxpert/avvvatars/tsconfig.lib.json",
         "hash": "14482406367494498373"
       },
       {
-        "file": "projects/ngneat/avvvatars/tsconfig.lib.prod.json",
+        "file": "projects/ngxpert/avvvatars/tsconfig.lib.prod.json",
         "hash": "1939170332703490951"
       },
       {
-        "file": "projects/ngneat/avvvatars/tsconfig.spec.json",
+        "file": "projects/ngxpert/avvvatars/tsconfig.spec.json",
         "hash": "4978455210362549465"
       },
       {

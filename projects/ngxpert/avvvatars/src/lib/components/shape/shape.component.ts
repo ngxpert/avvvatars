@@ -37,7 +37,7 @@ export class ShapeComponent implements ShapeProps {
     this._size.set(value);
   }
 
-  @HostBinding('style.--ngneat-avvvatars-color')
+  @HostBinding('style.--ngxpert-avvvatars-color')
   @Input()
   color?: string;
 
