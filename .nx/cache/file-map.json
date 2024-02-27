@@ -53,9 +53,7 @@
     "typescript": "~5.2.2"
   },
   "pathMappings": {
-    "@ngxpert/avvvatars": [
-      "./dist/ngxpert/avvvatars"
-    ]
+    "@ngxpert/avvvatars": ["./dist/ngxpert/avvvatars"]
   },
   "nxJsonPlugins": [],
   "fileMap": {
