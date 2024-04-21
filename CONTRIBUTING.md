@@ -1,6 +1,6 @@
-# Contributing to Hot-toast
+# Contributing to avvvatars
 
-🙏 We would ❤️ for you to contribute to Hot-toast and help make it even better than it is today!
+🙏 We would ❤️ for you to contribute to avvvatars and help make it even better than it is today!
 
 ## Developing
 
@@ -16,28 +16,21 @@ Run the playground app:
 npm start
 ```
 
-## Testing
+<!-- ## Testing
 
-### Run unit tests
+### Run cypress tests
 
 ```bash
 npm start
 npm run unit
 ```
 
-Cypress window will open, you can click on individual tests.
-
-### Run e2e tests (generally run in CI)
-
-```bash
-npm run build -- --prod
-npm run e2e
-```
+Cypress window will open, you can click on individual tests. -->
 
 ## Building
 
 ```bash
-npm run build
+npm run build:lib
 ```
 
 ## <a name="rules"></a> Coding Rules
@@ -49,15 +42,21 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 ## <a name="commit"></a> Commit Message Guidelines
 
-**TL;DR**
+### TL;DR
 
-Simply run `npm run commit` after staging your changes.
+Simply run commit script after staging your files to take care about commit message guidelines
+
+```bash
+npm run commit
+```
+
+### Details
 
 We have very precise rules over how our git commit messages can be formatted. This leads to **more
 readable messages** that are easy to follow when looking through the **project history**. But also,
-we use the git commit messages to **generate the Hot-toast changelog**.
+we use the git commit messages to **generate the avvvatars changelog**.
 
-### Commit Message Format
+#### Commit Message Format
 
 Each commit message consists of a **header**, a **body** and a **footer**. The header has a special
 format that includes a **type**, a **scope** and a **subject**:
