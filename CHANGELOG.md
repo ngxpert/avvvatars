@@ -1,3 +1,20 @@
+# [2.0.0-beta.1](https://github.com/ngxpert/avvvatars/compare/v1.0.0...v2.0.0-beta.1) (2024-08-25)
+
+
+### Features
+
+* update angular eslint ([d3bc8cc](https://github.com/ngxpert/avvvatars/commit/d3bc8cc6b8608bb131f44c688b6567e0ade84a32)), closes [#4](https://github.com/ngxpert/avvvatars/issues/4)
+* update angular to 18 ([c5422cd](https://github.com/ngxpert/avvvatars/commit/c5422cdcb539911e8b004c9866ef49b467e6c80e)), closes [#4](https://github.com/ngxpert/avvvatars/issues/4)
+* update peer deps for lib ([5fad171](https://github.com/ngxpert/avvvatars/commit/5fad17188f03b5a123003fe987566f01733b6142)), closes [#4](https://github.com/ngxpert/avvvatars/issues/4)
+* update typescript eslint plugins ([e0d7aa4](https://github.com/ngxpert/avvvatars/commit/e0d7aa48a70d2bbfdd4cb5f9c92993564190d9f8)), closes [#4](https://github.com/ngxpert/avvvatars/issues/4)
+
+
+### BREAKING CHANGES
+
+* update peer deps for lib
+* update angular to 18
+* update angular eslint
+
 # 1.0.0 (2024-02-27)
 
 
