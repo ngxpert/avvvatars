@@ -37,7 +37,15 @@ https://github.com/ngneat/avvvatars/assets/6831283/c6cdd732-3037-4732-8019-4f490
         1.x
       </td>
       <td>
-        >= 17
+        >= 17 < 18
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2.x
+      </td>
+      <td>
+        >= 18
       </td>
     </tr>
   </tbody>
