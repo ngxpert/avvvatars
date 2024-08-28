@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ngxpert/avvvatars/compare/v2.0.0...v2.0.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* peer deps in package.json ([70ee950](https://github.com/ngxpert/avvvatars/commit/70ee95013da308c81b31a2835d8e0451a49fae52))
+
 # [2.0.0](https://github.com/ngxpert/avvvatars/compare/v1.0.0...v2.0.0) (2024-08-25)
 
 
