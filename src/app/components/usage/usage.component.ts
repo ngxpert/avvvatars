@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { CodeComponent } from '../code/code.component';
 
 @Component({
-  selector: 'app-usage',
-  templateUrl: 'usage.component.html',
-  standalone: true,
-  imports: [CodeComponent],
+    selector: 'app-usage',
+    templateUrl: 'usage.component.html',
+    imports: [CodeComponent]
 })
 export class UsageComponent {
   snippet = `

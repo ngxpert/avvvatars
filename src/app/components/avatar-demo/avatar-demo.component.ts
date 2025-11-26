@@ -11,12 +11,11 @@ import '@material/web/radio/radio.js';
 import { MdOutlinedTextField } from '@material/web/textfield/outlined-text-field';
 
 @Component({
-  selector: 'app-avatar-demo',
-  standalone: true,
-  imports: [AvvvatarsComponent],
-  templateUrl: './avatar-demo.component.html',
-  styleUrl: './avatar-demo.component.scss',
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    selector: 'app-avatar-demo',
+    imports: [AvvvatarsComponent],
+    templateUrl: './avatar-demo.component.html',
+    styleUrl: './avatar-demo.component.scss',
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AvatarDemoComponent implements AfterViewInit {
   avStyle: Style = 'shape';

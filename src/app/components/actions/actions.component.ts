@@ -8,18 +8,17 @@ import { SwitchModeLiveComponent } from '../switch-mode/live/switch-mode-live.co
 import { NgClass } from '@angular/common';
 
 @Component({
-  selector: 'app-actions',
-  standalone: true,
-  imports: [
-    SwitchModeDarkComponent,
-    SwitchModeGitHubComponent,
-    AvvvatarsComponent,
-    SwitchModeLiveComponent,
-    NgClass,
-  ],
-  templateUrl: './actions.component.html',
-  styleUrl: './actions.component.scss',
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    selector: 'app-actions',
+    imports: [
+        SwitchModeDarkComponent,
+        SwitchModeGitHubComponent,
+        AvvvatarsComponent,
+        SwitchModeLiveComponent,
+        NgClass,
+    ],
+    templateUrl: './actions.component.html',
+    styleUrl: './actions.component.scss',
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ActionsComponent {
   @Input() vertical = true;

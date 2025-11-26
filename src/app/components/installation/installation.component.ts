@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { CodeComponent } from '../code/code.component';
 
 @Component({
-  selector: 'app-installation',
-  templateUrl: 'installation.component.html',
-  standalone: true,
-  imports: [CodeComponent],
+    selector: 'app-installation',
+    templateUrl: 'installation.component.html',
+    imports: [CodeComponent]
 })
 export class InstallationComponent {
   snippet = `

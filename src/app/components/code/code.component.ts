@@ -11,10 +11,9 @@ import { NgClass } from '@angular/common';
 import { SafeHtml } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-code',
-  templateUrl: './code.component.html',
-  standalone: true,
-  imports: [NgClass],
+    selector: 'app-code',
+    templateUrl: './code.component.html',
+    imports: [NgClass]
 })
 export class CodeComponent implements OnChanges {
   @Input() language = 'typescript';

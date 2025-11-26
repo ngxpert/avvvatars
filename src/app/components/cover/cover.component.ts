@@ -5,16 +5,15 @@ import { SwitchModeGitHubComponent } from '../switch-mode/github/switch-mode-git
 import '@material/web/button/filled-button.js';
 
 @Component({
-  selector: 'app-cover',
-  standalone: true,
-  imports: [
-    NgStyle,
-    AsyncPipe,
-    GradientWrapperComponent,
-    SwitchModeGitHubComponent,
-  ],
-  templateUrl: './cover.component.html',
-  styleUrl: './cover.component.scss',
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    selector: 'app-cover',
+    imports: [
+        NgStyle,
+        AsyncPipe,
+        GradientWrapperComponent,
+        SwitchModeGitHubComponent,
+    ],
+    templateUrl: './cover.component.html',
+    styleUrl: './cover.component.scss',
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class CoverComponent {}

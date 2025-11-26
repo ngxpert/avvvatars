@@ -8,11 +8,10 @@ import { ShapeComponent } from './components/shape/shape.component';
 import { DEFAULTS } from './constants';
 
 @Component({
-  // eslint-disable-next-line @angular-eslint/component-selector
-  selector: 'avvvatars',
-  standalone: true,
-  imports: [WrapperComponent, TextComponent, ShapeComponent],
-  templateUrl: './avvvatars.component.html',
+    // eslint-disable-next-line @angular-eslint/component-selector
+    selector: 'avvvatars',
+    imports: [WrapperComponent, TextComponent, ShapeComponent],
+    templateUrl: './avvvatars.component.html'
 })
 export class AvvvatarsComponent implements Params {
   private _displayValue = signal<string | undefined>(undefined);

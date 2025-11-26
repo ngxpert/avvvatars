@@ -3,10 +3,9 @@ import { ThemeManager } from '../../../theme-manager.service';
 import { AsyncPipe } from '@angular/common';
 
 @Component({
-  selector: 'app-switch-mode-dark',
-  standalone: true,
-  imports: [AsyncPipe],
-  templateUrl: './switch-mode-dark.component.html',
+    selector: 'app-switch-mode-dark',
+    imports: [AsyncPipe],
+    templateUrl: './switch-mode-dark.component.html'
 })
 export class SwitchModeDarkComponent {
   @Input() variant: 'compact' | 'full' = 'compact';

@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { CodeComponent } from '../code/code.component';
 
 @Component({
-  selector: 'app-setup',
-  templateUrl: 'setup.component.html',
-  standalone: true,
-  imports: [CodeComponent],
+    selector: 'app-setup',
+    templateUrl: 'setup.component.html',
+    imports: [CodeComponent]
 })
 export class SetupComponent {
   snippet = `import { AvvvatarsComponent } from '@ngxpert/avvvatars';

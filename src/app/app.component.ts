@@ -10,20 +10,19 @@ import { UsageComponent } from './components/usage/usage.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    CommonModule,
-    CoverComponent,
-    AvatarDemoComponent,
-    ActionsComponent,
-    InstallationComponent,
-    SetupComponent,
-    UsageComponent,
-    FooterComponent,
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [
+        CommonModule,
+        CoverComponent,
+        AvatarDemoComponent,
+        ActionsComponent,
+        InstallationComponent,
+        SetupComponent,
+        UsageComponent,
+        FooterComponent,
+    ],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   themeManager = inject(ThemeManager);
