@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/ngxpert/avvvatars/compare/v2.0.2...v2.0.3) (2025-11-26)
+
+
+### Bug Fixes
+
+* update peer dependencies for Angular to restrict versions ([4d7e502](https://github.com/ngxpert/avvvatars/commit/4d7e5026f7fb6245abe126152b50176524ffc454))
+
 ## [2.0.2](https://github.com/ngxpert/avvvatars/compare/v2.0.1...v2.0.2) (2024-08-28)
 
 
